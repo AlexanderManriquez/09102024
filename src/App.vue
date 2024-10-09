@@ -1,10 +1,15 @@
 <script setup>
-
+  import Dropdown from './components/Dropdown.vue'
+  import Contador from './components/Contador.vue'
+  import HrefDinamico from './components/HrefDinamico.vue'
+  import ClaseDinamica from './components/ClaseDinamica.vue'
 </script>
 
 <template>
-
- 
+  <Dropdown/>
+  <Contador/>
+  <HrefDinamico/>
+  <ClaseDinamica/>
 </template>
 
 <style scoped>
